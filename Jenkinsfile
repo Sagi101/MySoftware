@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Click and Welcome') {
             steps {
                 bat 'dir'
                 bat 'Click.py'
